@@ -10,4 +10,6 @@ Workflow:
 
 3. Manual Label Sorting: Run the script labels_separation.m to open both the tomogram (from step 1) and the labeled volume (from step 2). This tool allows you to manually sort the labeled segments with different values into groups (see the following gif image).
 
+Notes: this script relies on TOM software toolbox, which contains essential function (e.i. tom_mrcread). The package of TOM software toolbox can be fonud in this paper: Nickell et al., 'TOM software toolbox: acquisition and analysis for electron tomography', Journal of Structural Biology, 149 (2005), 227-234.
+
 ![separation_usage](https://github.com/user-attachments/assets/ddded349-69df-4f28-99cb-d933a6b60e5d)
